@@ -32,4 +32,4 @@ This Project was original create by ode-academia, the Reference link is (https:/
 
 ## Package Contain
 
-Package Contain @angular/Material, @angular/cdk, 
+Package Contain @angular/Material, @angular/cdk, # Dashboard-Panel-Material
