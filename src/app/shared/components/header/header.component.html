@@ -12,17 +12,17 @@
                 </button>
             </li>
             <li>
-                <button mat-icon-button> 
+                <button mat-button color="primary"> 
                     <mat-icon>help_outline</mat-icon>
                 </button>
             </li>
             <li>
-                <button mat-button [matMenuTriggerFor]="menu">
+                <button mat-button color="primary" [matMenuTriggerFor]="menu">
                     <mat-icon>person_outline</mat-icon>
                 </button>
                 <mat-menu #menu="matMenu">
                     <!-- add menu item option here -->
-                  <button mat-menu-item>
+                  <button mat-button color="primary">
                       <mat-icon>exit_to_app</mat-icon>
                       Sign Out
                   </button>
