@@ -1,15 +1,25 @@
 <div class="widget-chart">
-    <app-widget-area></app-widget-area>
+    <app-widget-area ></app-widget-area>
 </div>
 <mat-divider></mat-divider>
 <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px" class="status-cards">
-    <mat-card fxFlex="25">status</mat-card>
-    <mat-card fxFlex="25">status</mat-card>
-    <mat-card fxFlex="25">status</mat-card>
-    <mat-card fxFlex="25">status</mat-card>
+    <mat-card fxFlex="25">
+        <app-widget-card label="User" total="18k" precentage="50%"></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex="25">
+        <app-widget-card label="User" total="15K" precentage="40%"></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex="25">
+        <app-widget-card label="User" total="18k" precentage="40%"></app-widget-card>
+    </mat-card>
+    <mat-card fxFlex="25">
+        <app-widget-card label="User" total="18k" precentage="40%"></app-widget-card>
+    </mat-card>
 </div>
 <mat-divider></mat-divider>
-<div>
-    <div>Table</div>
-    <div>Pie Chart</div>
+<div fxLayout="row"fxLayoutAlign="space-between center" fxLayoutGap="20px">
+    <div fxFlex="60">Table</div>
+    <div fxFlex="40">
+        <app-widget-pie></app-widget-pie>
+    </div>
 </div>

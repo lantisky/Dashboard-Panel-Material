@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DefaultModule } from './layouts/default/default.modules';
-import { HighchartsChartModule } from 'highcharts-angular';
+
 
 
 
@@ -18,7 +18,7 @@ import { HighchartsChartModule } from 'highcharts-angular';
     AppRoutingModule,
     BrowserAnimationsModule,
     DefaultModule,
-    HighchartsChartModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
